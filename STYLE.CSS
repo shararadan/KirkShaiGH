@@ -1,0 +1,82 @@
+
+        body{
+            background-image: url(background.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            padding: 0%;
+            margin: 0%;
+        }
+        header,nav,section, main, aside,iframe,footer{
+            padding: 15px;
+            margin:10px ;
+            border-radius: 10px;
+        }
+        header{ 
+            background-color: bisque; text-align: center;
+        }
+        p{
+            margin: 0;
+            line-height: 1.4;
+        }
+        nav{
+        background-color:rgb(138, 117, 117);
+        gap: 20px;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        }
+        nav a{
+        padding: 8px 12px;
+        text-decoration: none; 
+        color: black; 
+        }
+        
+        section{
+            background-color: bisque;
+        }
+        aside{
+            background-color: bisque;
+        }
+        iframe{
+            background-color: bisque;
+        }
+        footer{
+            background-color: rgb(246, 246, 129); text-align: center;
+        }
+        .container{
+            display:flex;
+            margin-top: 50px;
+            padding-bottom: 50px;
+            width: 95%;
+        }
+        .about{
+            text-align: center;
+        }
+        .logo{
+            float: left;
+            margin-left: 14px;
+        
+        }
+        .intro{
+            font-weight: bold;
+        }
+        .map{
+            text-align: center;
+        }
+        .interest{
+            text-align: center;
+        }
+        .interactable{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .interactable > div{
+            flex: 1 1 300px;
+        }
+        .title{
+            text-align: center;
+        }
